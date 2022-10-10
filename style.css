@@ -1,0 +1,32 @@
+body{
+    font-family: futura;
+    color: rgb(105, 105, 105);
+}
+
+.container{
+    margin-left: 35%;
+}
+
+#number{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.get-jokes{
+    padding: 10px;
+    background: #fff ;
+    border: rgb(90, 165, 235) 1px solid;
+    font-family: futura;
+}
+
+.get-jokes:hover{
+    background: rgb(90, 165, 235);
+    color: #fff;
+}
+
+.number-container{
+    display: grid;
+    grid-template-rows: 30px;
+    margin-bottom: 20px;
+}
